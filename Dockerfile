@@ -11,7 +11,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # 以 production 形式安装依赖
-RUN npm ci --only=production && npm i nuxi-edge -g
+RUN npm ci --only=production && npx nuxi
 
 # 将本地代码复制到工作目录内
 COPY . ./
