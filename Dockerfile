@@ -1,5 +1,5 @@
 # 基础镜像
-FROM public.ecr.aws/lts/node
+FROM bitnami/node
 
 # 指定后续命令的用户
 USER root
