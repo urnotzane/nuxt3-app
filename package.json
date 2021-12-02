@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "name": "nuxt3-app",
+  "description": "We recommend to look at the [documentation](https://v3.nuxtjs.org).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "author": "",
+  "license": "ISC"
+}
