@@ -1,5 +1,5 @@
 # 基础镜像
-FROM node:latest
+FROM public.ecr.aws/lts/node:latest
 
 # 指定后续命令的用户
 USER root
