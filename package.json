@@ -6,7 +6,6 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxi-edge": "^3.0.0-27306529.1ef6e3f",
     "nuxt3": "latest"
   },
   "name": "nuxt3-app",
