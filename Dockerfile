@@ -13,7 +13,11 @@ COPY package*.json ./
 # 将本地代码复制到工作目录内
 COPY . ./
 
-RUN npm i --only=production && npm run build && npm run start
+RUN npm i --only=production
+
+RUN ls
+
+RUN npm run build && npm run start
 
 # 将容器内部3000端口暴露出来，允许外部访问，必须是web应用运行端口
 EXPOSE 3000
