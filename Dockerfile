@@ -1,5 +1,5 @@
 # 基础镜像
-FROM bitnami/node:16
+FROM bitnami/node:15
 
 # 指定后续命令的用户
 USER root
