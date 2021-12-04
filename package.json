@@ -3,10 +3,10 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "HOST=0.0.0.0 node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxi-edge": "^3.0.0-27307420.6a25d3e",
+    "nuxi-edge": "latest",
     "nuxt3": "latest"
   },
   "name": "nuxt3-app",
