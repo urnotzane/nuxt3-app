@@ -13,4 +13,4 @@ COPY . ./
 # 将容器内部3000端口暴露出来，允许外部访问，必须是web应用运行端口
 EXPOSE 3000
 
-ENTRYPOINT ["node", "./server/index.mjs" ]
+CMD node ./server/index.mjs
